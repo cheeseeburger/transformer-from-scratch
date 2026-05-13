@@ -84,4 +84,4 @@ class Encoder(nn.Module):
         for layer in self.layers:
             x = layer(x, mask)
         
-        return x
+        return x 
