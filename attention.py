@@ -53,4 +53,4 @@ class MultiHeadAttention(nn.Module):
         x = x.transpose(1, 2).contiguous()
         x = x.view(batch_size, -1, self.d_model)
         
-        return self.W_o(x)
+        return self.W_o(x) 
