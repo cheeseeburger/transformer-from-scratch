@@ -88,4 +88,4 @@ if __name__ == "__main__":
     
     output = model(src, tgt)
     print(f"Output shape: {output.shape}")  # Should be (2, 10, 1000)
-    print("Transformer working correctly!")
+    print("Transformer working correctly!") 
