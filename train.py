@@ -58,4 +58,4 @@ for epoch in range(EPOCHS):
 
 print("Training complete!")
 torch.save(model.state_dict(), "transformer_model.pth")
-print("Model saved!")
+print("Model saved!") 
